@@ -1,0 +1,8 @@
+print("Credit Card Terminal, please give age.")
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("you are now signed up")
+
+elif age <= 17:
+    print("You are too young to sign up.")
