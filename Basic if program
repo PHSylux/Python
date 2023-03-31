@@ -1,8 +1,10 @@
-print("Credit Card Terminal, please give age.")
+print("Credit Card Terminal")
 age = int(input("Enter your age: "))
 
 if age >= 18:
-    print("you are now signed up")
+    print("You are now signed up")
 
-elif age <= 17:
+elif age <= 0:
+    print("You don't exist")
+else:
     print("You are too young to sign up.")
