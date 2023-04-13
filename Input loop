@@ -1,0 +1,8 @@
+Parts = {}
+for n in range(5):
+    part_num = input("Enter a part number: ")
+    desc = input("Enter a part number description: ")
+    price = input("Enter a price: ")
+    Parts[part_num] = [desc,price]
+    
+print(Parts)
