@@ -1,0 +1,29 @@
+eng2sp = {}
+eng2sp['One'] = 'Uno'
+eng2sp['Two'] = 'Dos'
+eng2sp['Three'] = 'Tres' 
+eng2sp['Four'] = 'Quatro'
+eng2sp['Five'] = 'Cinco'
+
+eng2sp.pop('Five')
+print(eng2sp)
+
+
+keys = eng2sp.keys() 
+for key in eng2sp.keys():
+    print(keys)
+
+value = eng2sp.values()
+for value in eng2sp.values():
+    print(value)
+    
+for element in eng2sp.items():
+    print(element)
+    
+#for english, spanish in eng2sp.items():
+
+
+for key, value in eng2sp.items():
+    print(key, value)
+    
+
