@@ -1,7 +1,6 @@
-Course = {}
+Courses = {}
 for n in range(5):
- 
-Course_num = input("Enter a course number: ")
+    Course_num = input("Enter a course number: ")
 
 
 Course = {}
@@ -11,19 +10,19 @@ Course['CS103'] = '6755'
 Course['CS104'] = '1244'
 Course['CS105'] = '1411'
 
-Teacher{}
+Teacher = {}
 Teacher['CS101'] = 'Lacher'
 Teacher['CS102'] = 'Abey'
 Teacher['CS103'] = 'Baker'
 Teacher['CS104'] = 'Phillips'
 Teacher['CS105'] = 'Rogers'
 
-Time{}
+Time = {}
 Time['CS101'] = '8:00 a.m'
 Time['CS102'] = '9:00 a.m'
 Time['CS103'] = '10:00 a.m'
 Time['CS104'] = '11:00 a.m'
 Time['CS105'] = '1:00 p.m'
-Course_info[part_num] = [Course, Teacher, Time]
+Courses[part_num] = [Course, Teacher, Time]
 
-print(Sites)
+print(Courses)
